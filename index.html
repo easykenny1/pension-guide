@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Your Pension Options | Employee Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            min-height: 100vh;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 300;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 3rem 2rem;
+        }
+        
+        .intro {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 3rem;
+            border-left: 4px solid #3498db;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin: 2rem 0 1rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #3498db;
+        }
+        
+        h3 {
+            color: #34495e;
+            font-size: 1.3rem;
+            margin: 1.5rem 0 0.5rem 0;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .scheme-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-left: 5px solid #3498db;
+        }
+        
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .pros, .cons {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+        }
+        
+        .pros {
+            border-left: 4px solid #27ae60;
+        }
+        
+        .cons {
+            border-left: 4px solid #e74c3c;
+        }
+        
+        .pros h4, .cons h4 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        
+        .pros h4 {
+            color: #27ae60;
+        }
+        
+        .cons h4 {
+            color: #e74c3c;
+        }
+        
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+            font-size: 1.05rem;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .comparison-table th,
+        .comparison-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .comparison-table th {
+            background: #3498db;
+            color: white;
+            font-weight: 600;
+        }
+        
+        .comparison-table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .cta {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 3rem 0;
+            text-align: center;
+        }
+        
+        .cta h3 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            .pros-cons {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Understanding Your Pension Options</h1>
+            <p class="subtitle">A Complete Guide to Defined Benefit and Contributory Pension Schemes</p>
+        </header>
+
+        <div class="content">
+            <div class="intro">
+                <h3>Welcome to Your Pension Guide</h3>
+                <p>As a newly recruited employee, understanding your pension is one of the most important steps you can take for your financial future. This guide will help you understand the pension systems in Nigeria: <strong>Defined Benefit Schemes</strong> and <strong>Contributory Pension Schemes</strong>, as well as the roles of <strong>Pension Fund Administrators (PFAs)</strong> and <strong>Retirement Savings Accounts (RSAs)</strong>.</p>
+                <p>Your pension is a valuable benefit that ensures you'll have income when you retire. Take your time to read through this information, and don't hesitate to reach out to HR if you have any questions about your specific pension arrangement.</p>
+            </div>
+
+            <h2>Legal Framework: How Nigeria's Pension Laws Protect You</h2>
+            <div class="highlight-box">
+                <h3>Key Legislation Securing Your Retirement</h3>
+                <ul style="text-align: left; margin: 1rem 0;">
+                    <li><strong>Pension Reform Act 2004:</strong> Established the Contributory Pension Scheme to replace failed government pension systems</li>
+                    <li><strong>Pension Reform Act 2014:</strong> Enhanced and strengthened the CPS with better protections for employees</li>
+                    <li><strong>National Pension Commission Act:</strong> Created PenCom to regulate and protect pension contributors</li>
+                    <li><strong>Ekiti State Pension Law 2021:</strong> Ekiti State became a pioneer by adopting the Contributory Pension Scheme, ensuring sustainable pensions for state workers</li>
+                </ul>
+                <p><em>These laws were created specifically to protect your retirement and ensure you receive your pension benefits.</em></p>
+            </div>
+
+            <h2>What is a Pension Scheme?</h2>
+            <p>A pension scheme is a retirement savings plan that provides you with income after you retire from work. It's essentially a way to ensure financial security in your later years by setting aside money during your working life.</p>
+
+            <div class="scheme-card">
+                <h2>Defined Benefit Pension Scheme</h2>
+                <p>A Defined Benefit (DB) scheme is a type of pension where your retirement income is predetermined based on a specific formula, usually involving your salary and years of service.</p>
+
+                <h3>How It Works</h3>
+                <p>In a DB scheme, your employer promises to pay you a specific amount when you retire. This amount is calculated using a formula such as:</p>
+                <div class="highlight-box">
+                    <strong>Annual Pension = Years of Service × Accrual Rate × Final Salary</strong><br>
+                    <em>For example: 30 years × 2% × $60,000 = $36,000 per year</em>
+                </div>
+
+                <h3>Key Benefits of Defined Benefit Schemes</h3>
+                <ul>
+                    <li><strong>Predictable Income:</strong> You know exactly how much you'll receive in retirement - perfect for planning</li>
+                    <li><strong>Employer Responsibility:</strong> Your employer manages investments and bears the risk - you don't need to worry about market fluctuations</li>
+                    <li><strong>Inflation Protection:</strong> Many DB schemes include cost-of-living adjustments to maintain your purchasing power</li>
+                    <li><strong>Survivor Benefits:</strong> Often includes benefits for your spouse or dependents, providing family security</li>
+                    <li><strong>Professional Management:</strong> Expert fund managers handle your pension investments</li>
+                    <li><strong>Guaranteed Security:</strong> Your pension amount is predetermined and secure</li>
+                </ul>
+
+                <h3>Important Considerations</h3>
+                <p>While DB schemes offer excellent security, they are less common in modern workplaces due to their high cost to employers. Most organizations have moved to the more flexible Contributory Pension Scheme.</p>
+            </div>
+
+            <div class="scheme-card">
+                <h2>Pension Fund Administrators (PFAs) and Retirement Savings Accounts (RSAs)</h2>
+                <p>Under the Contributory Pension Scheme, two key components ensure the management and security of your pension funds: Pension Fund Administrators (PFAs) and Retirement Savings Accounts (RSAs).</p>
+
+                <h3>What is a Pension Fund Administrator (PFA)?</h3>
+                <p>A Pension Fund Administrator (PFA) is a licensed financial institution approved by the National Pension Commission (PenCom) to manage pension funds under the Contributory Pension Scheme. PFAs are specialized companies that act as custodians and investment managers for your retirement savings.</p>
+                
+                <p><strong>Simply put:</strong> A PFA is your pension fund manager - they take care of your money, invest it safely, and ensure it grows for your retirement. They are regulated by law to protect your interests and ensure your pension is secure.</p>
+
+                <h3>Key Responsibilities of PFAs:</h3>
+                <ul>
+                    <li><strong>Account Management:</strong> Opening and maintaining your RSA</li>
+                    <li><strong>Investment Management:</strong> Investing your pension contributions in approved securities</li>
+                    <li><strong>Record Keeping:</strong> Maintaining accurate records of all transactions</li>
+                    <li><strong>Customer Service:</strong> Providing regular statements and responding to inquiries</li>
+                    <li><strong>Benefit Payment:</strong> Processing retirement benefits and withdrawals</li>
+                    <li><strong>Compliance:</strong> Ensuring adherence to pension regulations</li>
+                </ul>
+
+                <h3>What is a Retirement Savings Account (RSA)?</h3>
+                <p>A Retirement Savings Account (RSA) is your personal, individual pension account that is opened and maintained by your chosen PFA. It's similar to a bank account, but specifically designed for retirement savings.</p>
+                
+                <p><strong>Think of it this way:</strong> Your RSA is like a special savings account that only you own. Every month, money from you and your employer goes into this account. The PFA then invests this money to help it grow over the years until you retire.</p>
+                
+                <p><strong>Important Features:</strong></p>
+                <ul>
+                    <li>It belongs to YOU personally - not your employer</li>
+                    <li>It has a unique RSA PIN (Personal Identification Number) that identifies you</li>
+                    <li>The money in it is invested to grow your retirement fund</li>
+                    <li>You can see how much money is in your account through regular statements</li>
+                    <li>It stays with you even if you change jobs</li>
+                </ul>
+
+                <h3>Key Features of RSAs:</h3>
+                <ul>
+                    <li><strong>Individual Ownership:</strong> The account belongs to you personally</li>
+                    <li><strong>Unique PIN:</strong> Each RSA has a unique Personal Identification Number</li>
+                    <li><strong>Portability:</strong> Follows you throughout your career, regardless of employer changes</li>
+                    <li><strong>Regular Statements:</strong> Quarterly and annual statements showing your balance and transactions</li>
+                    <li><strong>Investment Growth:</strong> Your funds are invested to grow over time</li>
+                    <li><strong>Access Rights:</strong> You can access your funds under specific conditions</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <strong>Important:</strong> You have the right to choose your PFA and can transfer your RSA between licensed PFAs if you're not satisfied with the service.
+                </div>
+
+                <h3>How PFAs and RSAs Work Together</h3>
+                <p>When you join the Contributory Pension Scheme:</p>
+                <ol style="margin-left: 1.5rem; margin-bottom: 1rem;">
+                    <li><strong>PFA Selection:</strong> You choose a licensed PFA (or one is assigned)</li>
+                    <li><strong>RSA Opening:</strong> The PFA opens an RSA in your name</li>
+                    <li><strong>Contributions:</strong> Monthly contributions are paid into your RSA</li>
+                    <li><strong>Investment:</strong> The PFA invests your funds according to regulatory guidelines</li>
+                    <li><strong>Monitoring:</strong> You receive regular statements showing your account balance</li>
+                    <li><strong>Growth:</strong> Your account grows through contributions and investment returns</li>
+                </ol>
+
+                <h3>Choosing the Right PFA</h3>
+                <p>When selecting a PFA, consider:</p>
+                <ul>
+                    <li><strong>Track Record:</strong> Historical investment performance</li>
+                    <li><strong>Customer Service:</strong> Quality of service and response times</li>
+                    <li><strong>Technology:</strong> Online platforms and mobile apps</li>
+                    <li><strong>Fees:</strong> Management fees and charges</li>
+                    <li><strong>Network:</strong> Branch locations and accessibility</li>
+                    <li><strong>Reputation:</strong> Market standing and regulatory compliance</li>
+                </ul>
+
+                <h4>Benefits of the PFA/RSA System for You</h4>
+                <ul>
+                    <li><strong>Professional Management:</strong> Licensed experts manage your pension investments</li>
+                    <li><strong>Personal Ownership:</strong> Your RSA belongs to you individually - it's your personal retirement account</li>
+                    <li><strong>Regulatory Protection:</strong> PenCom ensures your money is safe and properly managed</li>
+                    <li><strong>Choice and Control:</strong> You can choose your PFA and transfer if needed</li>
+                    <li><strong>Transparency:</strong> Regular statements keep you informed about your pension growth</li>
+                    <li><strong>Portability:</strong> Your pension account follows you throughout your career</li>
+                    <li><strong>Growth Opportunity:</strong> Professional investment management helps your pension grow over time</li>
+                </ul>
+
+                <h4>Tips for Success with Your PFA and RSA</h4>
+                <ul>
+                    <li><strong>Stay Engaged:</strong> Review your quarterly statements to see your pension growing</li>
+                    <li><strong>Ask Questions:</strong> Your PFA is there to help - don't hesitate to contact them</li>
+                    <li><strong>Keep Records:</strong> Save all your pension statements and documents</li>
+                    <li><strong>Consider Additional Contributions:</strong> You can make voluntary contributions to boost your pension</li>
+                    <li><strong>Plan Ahead:</strong> The earlier you start actively managing your pension, the better your retirement will be</li>
+                </ul>
+            </div>
+                <p>A Contributory Pension Scheme (also known as a Defined Contribution scheme) is where both you and your employer contribute to an individual pension account. Your retirement income depends on how much is contributed and how well the investments perform.</p>
+                
+                <div class="highlight-box">
+                    <h4>Contribution Rates Under the Contributory Pension Scheme</h4>
+                    <p><strong>For Private Sector Employees:</strong></p>
+                    <ul style="text-align: left; margin: 1rem 0;">
+                        <li><strong>Employee Contribution: 8%</strong> of your monthly basic salary, housing and transport allowance</li>
+                        <li><strong>Employer Contribution: 10%</strong> of your monthly basic salary, housing and transport allowance</li>
+                        <li><strong>Total Monthly Contribution: 18%</strong> of your qualifying salary</li>
+                    </ul>
+                    
+                    <p><strong>For Public Sector Employees:</strong></p>
+                    <ul style="text-align: left; margin: 1rem 0;">
+                        <li><strong>Employee Contribution: 8%</strong> of monthly basic salary, housing and transport allowance</li>
+                        <li><strong>Government Contribution: 10%</strong> of monthly basic salary, housing and transport allowance</li>
+                        <li><strong>Total Monthly Contribution: 18%</strong> of qualifying salary</li>
+                    </ul>
+                    
+                    <p><strong>Example:</strong> If your basic salary + housing + transport = ₦200,000 per month:<br>
+                    • Your contribution: ₦16,000 (8%)<br>
+                    • Employer contribution: ₦20,000 (10%)<br>
+                    • Total monthly savings: ₦36,000</p>
+                </div>
+
+                <h3>How It Works</h3>
+                <p>You and your employer contribute a percentage of your salary to your pension account. Under Nigerian law, the contribution rates are fixed as follows:</p>
+                <ul>
+                    <li><strong>You contribute 8%</strong> of your basic salary, housing and transport allowance</li>
+                    <li><strong>Your employer contributes 10%</strong> of your basic salary, housing and transport allowance</li>
+                    <li><strong>Total contribution is 18%</strong> of your qualifying emoluments</li>
+                </ul>
+                <p>This money is invested in various funds by your chosen PFA, and your final pension depends on:</p>
+                <ul>
+                    <li>Total contributions made</li>
+                    <li>Investment returns over time</li>
+                    <li>Fees and charges</li>
+                    <li>How you choose to withdraw the money at retirement</li>
+                </ul>
+
+                <h3>Key Features</h3>
+                <ul>
+                    <li><strong>Individual Account:</strong> You have your own pension pot</li>
+                    <li><strong>Investment Choice:</strong> You can often choose how your money is invested</li>
+                    <li><strong>Portability:</strong> Easy to transfer between employers</li>
+                    <li><strong>Flexibility:</strong> Various options for taking your pension</li>
+                </ul>
+
+                <div class="pros-cons">
+                    <div class="pros">
+                        <h4>✓ Advantages</h4>
+                        <ul>
+                            <li>Portable between employers</li>
+                            <li>Individual ownership of pension pot</li>
+                            <li>Investment choice and control</li>
+                            <li>Potential for higher returns</li>
+                            <li>Flexible retirement options</li>
+                            <li>Can pass on to beneficiaries</li>
+                        </ul>
+                    </div>
+                    <div class="cons">
+                        <h4>✗ Considerations</h4>
+                        <ul>
+                            <li>Investment risk on individual</li>
+                            <li>No guaranteed income amount</li>
+                            <li>Need to make investment decisions</li>
+                            <li>Market volatility affects returns</li>
+                            <li>Longevity risk (outliving your money)</li>
+                        </ul>
+                    </div>
+            <div class="scheme-card">
+                <h2>Contributory Pension Scheme</h2>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Defined Benefit</th>
+                        <th>Contributory Pension</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Retirement Income</strong></td>
+                        <td>Guaranteed, predictable amount</td>
+                        <td>Depends on contributions and investment performance</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Investment Risk</strong></td>
+                        <td>Employer bears the risk</td>
+                        <td>Employee bears the risk</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Portability</strong></td>
+                        <td>Limited, may lose benefits when changing jobs</td>
+                        <td>Highly portable, account follows you</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Control</strong></td>
+                        <td>Limited individual control</td>
+                        <td>High degree of individual control</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Employer Cost</strong></td>
+                        <td>Variable, potentially high</td>
+                        <td>Fixed percentage contribution</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Contribution Rate</strong></td>
+                        <td>Varies by employer/scheme design</td>
+                        <td>Fixed: Employee 8% + Employer 10% = 18% total</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Contribution Base</strong></td>
+                        <td>Usually based on final salary</td>
+                        <td>Basic salary + housing + transport allowance</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Account Type</strong></td>
+                        <td>Collective scheme</td>
+                        <td>Individual RSA</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Legal Framework</strong></td>
+                        <td>Various regulations</td>
+                        <td>Pension Reform Act 2004/2014, PenCom oversight</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Availability</strong></td>
+                        <td>Limited to certain employers</td>
+                        <td>Mandatory for all qualifying employees in Nigeria</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="cta">
+                <h3>Your Pension Journey Starts Here!</h3>
+                <p>Congratulations on taking this important step in your career! Your pension is not just an employee benefit - it's a legal right protected by Nigerian law and your pathway to a secure retirement.</p>
+                <p>If you have questions about your pension scheme, contribution rates, PFA selection, RSA management, or how to maximize your pension benefits, please contact the HR department. We're here to help you succeed!</p>
+                <p>If you ever have concerns about pension law compliance or need additional support, you can also contact the National Pension Commission (PenCom) - they're there to protect your interests.</p>
+                <p><strong>Your Future Self Will Thank You:</strong> Every contribution you make today is an investment in your tomorrow. Start strong, stay engaged, and build the retirement you deserve!</p>
+                <p><em>For more information about licensed PFAs, current regulations, and your pension rights, visit the National Pension Commission (PenCom) website at www.pencom.gov.ng</em></p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Employee Benefits Guide | For internal use by company employees</p>
+        </footer>
+    </div>
+</body>
+</html>
